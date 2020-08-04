@@ -1,5 +1,4 @@
 body{
-    margin:0;
     font-family: cursive;
     background-image: url('backgroundflame');
     background-repeat: no-repeat;
@@ -7,7 +6,7 @@ body{
 }
 .navigation{
 float: center;  
-color: blue;  
+color: black;  
 text-align: right;
 padding: 24px 26px;
 text-decoration: none;
@@ -24,25 +23,52 @@ H1{
     text-align: center;
     color: hotpink;
 }
-.about{
+.about,.testimonials,.contacts{
     background-color:pink;
     margin-left: 5%;
     margin-right: 5%;
-    opacity: 70%;
+    
     background-position-x: center ;
     background-position-y: center;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 2%;
-    padding-inline: 10px;
+    padding-inline: 5%;
     color: black;
     float: none ;
     text-align: left;
-    padding-bottom: inherit;
+    
 }
 ul{
     padding-bottom: 5%;
 }
 #about{
     padding-top: 5%;
+}
+footer {
+    color:black;
+    text-align: center;
+    background-color: white;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 0px;
+    width:30px;
+    background:blue;
+    color:white;
+    border-radius: 50%;
+    text-align: center;
+}
+.fa:hover{
+    opacity:0.7;
+}
+.fa-whatsapp{
+    background: green;
+}
+.fa-instagram{
+    background-color: indianred;
+}
+.contacts{
+    text-align: center;
 }
